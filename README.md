@@ -37,7 +37,7 @@ https://nodejs.org/en/
 然后安装脚本：
 
 ```bash
-$ npm install pick-get
+$ npm install pick-get -g
 ```
 <br>
 
