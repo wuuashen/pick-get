@@ -1,8 +1,12 @@
-<p style="text-align: left">
-  <img width="400" src="docs/logo.png">
-</p>
+![pick-get](docs/logo.png)
+
 
 >抓取社交网站用户的媒体文件的CLI爬虫工具
+
+<br>
+
+[![NPM](https://nodei.co/npm/pick-get.png?downloads=true&stars=true)](https://nodei.co/npm/pick-get/)
+
 
 <br>
 
@@ -10,7 +14,8 @@
   <source src="docs/kap.mp4" type="video/mp4">
 </video> -->
 
-<img src="docs/kap.gif">
+![video](docs/kap.gif)
+
 
 <br>
 
@@ -21,6 +26,8 @@
 - 自动重试，当网络不稳定时，会自动重试下载
 - 可限制文件下载并发数
 - 支持代理请求及cookie请求
+
+<br>
 
 ## 支持列表
 - instagram
