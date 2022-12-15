@@ -1,0 +1,36 @@
+{
+  "name": "pick-get",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/wuuashen/pick-get",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pick-get": "bin/index.js"
+  },
+  "author": "wuuashen",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 16.14.0",
+    "npm": "~8.3.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^9.4.1",
+    "cookiefile": "^1.0.10",
+    "dayjs": "^1.11.6",
+    "dotenv": "^16.0.1",
+    "minimist": "^1.2.5",
+    "node-fetch": "^3.3.0",
+    "ora": "^5.1.0",
+    "p-limit": "^4.0.0",
+    "pako": "1.0.11",
+    "pino": "^8.7.0",
+    "progress": "^2.0.3",
+    "proxy-agent": "^5.0.0"
+  }
+}
