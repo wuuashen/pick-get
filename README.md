@@ -6,6 +6,7 @@
 <br>
 
 [![NPM](https://nodei.co/npm/pick-get.png?downloads=true&stars=true)](https://nodei.co/npm/pick-get/)
+[![NPM version](https://badge.fury.io/js/pick-get.svg)](http://badge.fury.io/js/pick-get)
 
 
 <br>
@@ -22,7 +23,7 @@
 ## 特性
 - 批量下载，一次性下载指定用户的所有媒体文件
 - 记录错误日志，并且可再次下载曾经下载失败的文件
-- 文件排重，如果之前已经下载过该文件，重复下载时会排除掉，避免下载重复的文件
+- 文件排重，如果之前已经下载过该文件，下载时会排除掉，避免下载重复的文件
 - 自动重试，当网络不稳定时，会自动重试下载
 - 可限制文件下载并发数
 - 支持代理请求及cookie请求
@@ -46,6 +47,12 @@ https://nodejs.org/en/
 ```bash
 $ npm install pick-get -g
 ```
+
+更新脚本
+```bash
+$ npm update pick-get -g
+```
+
 <br>
 
 ## 使用
@@ -100,7 +107,7 @@ Options:
   -h, --help  display help for command
 
 Example: 
-  pick-get instagram lets_kate__
+  pick-get instagram 2km._.2km
 
 ```
 

@@ -6,6 +6,7 @@ import ora from 'ora'
 import querystring from 'querystring'
 import common from '../base/common.js'
 import fs from 'fs'
+import { CLIENT_RENEG_LIMIT } from 'tls'
 
 class weibo extends common {
   
@@ -18,8 +19,9 @@ class weibo extends common {
     this.uid = ''
     let uid_str = `uid=${this.options.id}`, 
         name_str = `screen_name=${this.options.id}`
+    
     // 用户基本信息
-    this.pageUrl = encodeURI(`https://weibo.com/ajax/profile/info?${Number(this.options.id) === NaN ? name_str : uid_str}`)
+    this.pageUrl = encodeURI(`https://weibo.com/ajax/profile/info?${isNaN(Number(this.options.id)) ? name_str : uid_str}`)
     // 用户相册
     this.baseUrl = ({uid, since_id}) => (`https://weibo.com/ajax/profile/getImageWall?uid=${uid}&sinceid=${since_id}${since_id ? '' : '&has_album=true'}`)
     // 用户视频

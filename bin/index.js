@@ -6,6 +6,7 @@ import instagram from '../site/instagram.js'
 
 program
   .command('weibo <user-id>')
+  .usage("<user-id> [options]")
   .description('抓取微博用户媒体文件')
   .addHelpText('after', `
 Example: 
@@ -23,6 +24,7 @@ Example:
 
 program
   .command('instagram <user-id>')
+  .usage("<user-id> [options]")
   .description('抓取instagram用户媒体文件')
   .addHelpText('after', `
 Example: 
