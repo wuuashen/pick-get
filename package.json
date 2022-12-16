@@ -1,6 +1,6 @@
 {
   "name": "pick-get",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "抓取社交网站用户的媒体文件的CLI爬虫工具",
   "main": "index.js",
   "type": "module",

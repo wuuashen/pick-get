@@ -52,9 +52,9 @@ Example:
     .option('--timeout [number]', '设置下载文件超时时间，如果经常提示超时可以设置大一些', 30000)
     .option('--count [number]', '限制文件下载数量，否则将所有文件下载完成')
     .option('--limit [number]', '限制文件下载并发数', 3)
-    .version('1.0.2')
+    .version('1.0.3')
 
 
 program.showHelpAfterError()
-program.addHelpText('before', 'Version 1.0.2\n')
+program.addHelpText('before', 'Version 1.0.3\n')
 program.parse()
