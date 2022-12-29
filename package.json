@@ -2,11 +2,12 @@
   "name": "pick-get",
   "version": "1.0.3",
   "description": "抓取社交网站用户的媒体文件的CLI爬虫工具",
-  "main": "index.js",
+  "main": "bin/index.js",
   "type": "module",
   "repository": "https://github.com/wuuashen/pick-get",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bin": "bin/index.js"
   },
   "bin": {
     "pick-get": "bin/index.js"

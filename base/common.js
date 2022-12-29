@@ -73,7 +73,7 @@ class common {
 开始下载第 ${this.currentPage}${totalPages ? ` / ${totalPages}` : ''} 页\n`
     ))
     
-    let arr = [], count = 0, limit = pLimit(this.options.limit)
+    let arr = [], count = 0, limit = pLimit(Number(this.options.limit))
     for (const result of resultList) {
       if(count >= Number(this.options.count)) {
         break

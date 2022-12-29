@@ -1,4 +1,4 @@
-![pick-get](docs/logo.png)
+![pick-get](docs/logoff9902.png)
 
 
 >抓取社交网站用户的媒体文件的CLI爬虫工具
