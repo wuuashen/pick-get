@@ -77,7 +77,7 @@ class weibo extends common {
       await this.downloadFiles(data.resultList)
       this.currentPage ++
       // 下载第 2 页及以后
-      eachPayload({...data.nextData}, video)
+      eachPayload({...data.nextData, video})
     }
 
     this.options.video ? 
